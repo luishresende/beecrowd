@@ -24,7 +24,7 @@ int main(){
     scanf("%lf %lf %lf %lf", &x1, &y1, &x2, &y2);
     double distancia = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
-    printf("%lf\n", distancia);
+    printf("%.4lf\n", distancia);
 
     return 0;
 }
